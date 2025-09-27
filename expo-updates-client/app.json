@@ -2,7 +2,7 @@
   "expo": {
     "name": "expo-updates-client",
     "slug": "expo-updates-client",
-    "owner": "anonymous",
+    "owner": "sidr99",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,11 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "runtimeVersion": "2",
+    "runtimeVersion": "1",
     "updates": {
-      "url": "http://localhost:3000/api/manifest",
+      "url": "http://192.168.0.103:3000/api/manifest",
       "enabled": true,
-      "fallbackToCacheTimeout": 30000,
+      "fallbackToCacheTimeout": 0,
       "codeSigningCertificate": "./code-signing/certificate.pem",
       "codeSigningMetadata": {
         "keyid": "main",
